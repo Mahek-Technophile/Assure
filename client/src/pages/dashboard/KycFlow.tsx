@@ -9,7 +9,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
 import { Progress } from "@/components/ui/progress";
-import { Loader2, Upload, Camera, CheckCircle2, AlertTriangle, ArrowRight, ArrowLeft } from "lucide-react";
+import { Loader2, Upload, Camera, CheckCircle2, AlertTriangle, ArrowRight, ArrowLeft, Shield } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 
