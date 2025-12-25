@@ -11,7 +11,8 @@ export default function Landing() {
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2 font-bold text-2xl text-primary">
             <ShieldCheck className="w-8 h-8" />
-            <span>AegisKYC</span>
+            <span>Assure - Your Compliance Assistant
+</span>
           </div>
           <div className="flex gap-4">
             <Link href="/login">
@@ -23,7 +24,6 @@ export default function Landing() {
           </div>
         </div>
       </nav>
-
       {/* Hero Section */}
       <section className="relative pt-20 pb-32 overflow-hidden">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100 via-white to-white"></div>
@@ -56,7 +56,6 @@ export default function Landing() {
           </motion.div>
         </div>
       </section>
-
       {/* Features Grid */}
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
@@ -84,7 +83,6 @@ export default function Landing() {
           </div>
         </div>
       </section>
-      
       {/* Footer */}
       <footer className="py-12 bg-slate-50 border-t mt-auto">
         <div className="container mx-auto px-6 text-center text-slate-500">
